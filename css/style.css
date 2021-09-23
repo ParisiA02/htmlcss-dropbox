@@ -114,7 +114,7 @@ header ul{
     color: rgb(0, 97, 255);
 }
 /* clearfix */
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
