@@ -6,3 +6,111 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* styling header */
+header{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    /* debugging */
+    background-color: red;
+}
+/* header logo */
+.header-logo{
+    vertical-align: middle;
+    width: 200px;
+    padding: 0 20px;
+}
+li{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    padding: 0 20px;
+}
+ul{
+    display: inline-block;
+    vertical-align: middle;
+}
+.ul-right-header{
+    float: right;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(0, 97, 255);
+    color: white;
+    font-size: 15px;
+}
+.header-btn{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* stylining jumbotron */
+.jumbotron{
+    width: 100%;
+    background-color: rgb(180, 208, 231);
+    height: 800px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* debugging */
+    background-color: yellow;
+}
+.jumbotron-title{
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.jumbotron-p{
+    width: 30%;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.jumbotron-btn{
+    margin-top: 25px;
+}
+.jumbotron-snd-title{
+    display: block;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.fa-arrow-down{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.jumbotron-image{
+    width: 1000px;
+    float: right;
+    padding-top: 30px;
+}
+/* styling section 2 */
+.section-2-title{
+    padding-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+.radio-btn{
+    padding-top: 50px;
+    display: block;
+}
+ .radio-btn-1{
+    display: inline-block;
+    padding-right: 20px;
+}
+.radio-btn-2{
+    display: inline-block;
+}
+/* clearfix */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.clmn-container{
+    width: 100%;
+    /* debugging */
+    height: 100px;
+    background-color: red;  
+}
