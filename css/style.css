@@ -20,13 +20,13 @@ header{
     width: 200px;
     padding: 0 20px;
 }
-li{
+header li{
     display: inline-block;
     vertical-align: middle;
     font-size: 18px;
     padding: 0 20px;
 }
-ul{
+header ul{
     display: inline-block;
     vertical-align: middle;
 }
@@ -48,7 +48,7 @@ ul{
 .jumbotron{
     width: 100%;
     background-color: rgb(180, 208, 231);
-    height: 800px;
+    padding-bottom: 150px;
 }
 .container{
     width: 80%;
@@ -56,6 +56,13 @@ ul{
     /* debugging */
     background-color: yellow;
 }
+.container-2{
+    width: 70%;
+    margin: 0 auto;
+    /* debugging */
+    background-color: green;
+}
+
 .jumbotron-title{
     font-size: 90px;
     font-weight: bold;
@@ -92,15 +99,19 @@ ul{
     display: inline-block;
 }
 .radio-btn{
-    padding-top: 50px;
+    padding: 50px 0;
     display: block;
 }
- .radio-btn-1{
+.radio-btn-1{
     display: inline-block;
     padding-right: 20px;
 }
 .radio-btn-2{
     display: inline-block;
+}
+.fa-dot-circle
+{
+    color: rgb(0, 97, 255);
 }
 /* clearfix */
 .clearfix{
@@ -108,9 +119,79 @@ ul{
     display: table;
     clear: both;
 }
+/* column container */
 .clmn-container{
     width: 100%;
     /* debugging */
-    height: 100px;
     background-color: red;  
+}
+/* styling columns */
+.clnm{
+    width: calc(89% / 3);
+    float: left;
+    display: inline-block;
+    border: 1px solid grey;
+    /* debugging */
+    background-color: blue;
+}
+.clnm.center{
+    margin: 0 73px;
+}
+.clnm.right{
+    float: right;
+}
+.clnm-int{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.clnm-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.clnm-price{
+
+    font-weight: bold;
+}
+.clnm-dir{
+    clnm-user
+    color: grey;
+    margin: 15px 0 50px 0;
+}
+.margin{
+    margin: 15px 0 0 30px;
+}
+.m-bottom{
+    margin-bottom: 20px;
+}
+.btn.column{
+    margin: 40px 0;
+    padding: 10px 82px;
+}
+.clnm-or{
+    display: inline-block;
+    padding-bottom: 30px;
+    border-bottom: 1px solid grey;
+}
+.clnm-buy{
+    display: inline-block;
+    color: rgb(12, 104, 255);
+    text-decoration: underline;
+}
+
+.fa-check{
+    color: rgb(12, 104, 255);
+}
+.list-title{
+    padding: 20px 0;
+    font-weight: bold;
+}
+.clnm li{
+    padding-bottom: 40px;
+    
+}
+.clnm ul {
+    list-style: none;
 }
