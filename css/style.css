@@ -11,6 +11,10 @@ header{
     width: 100%;
     height: 100px;
     line-height: 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
     /* debugging */
     background-color: red;
 }
@@ -29,6 +33,9 @@ header li{
 header ul{
     display: inline-block;
     vertical-align: middle;
+}
+header a{
+    text-decoration: none;
 }
 .ul-right-header{
     float: right;
@@ -113,6 +120,9 @@ header ul{
 {
     color: rgb(0, 97, 255);
 }
+.fa-circle{
+    color: grey;
+}
 /* clearfix */
 .clearfix::after{
     content: "";
@@ -131,6 +141,7 @@ header ul{
     float: left;
     display: inline-block;
     border: 1px solid grey;
+    min-height: 1200px;
     /* debugging */
     background-color: blue;
 }
@@ -160,14 +171,17 @@ header ul{
     color: grey;
     margin: 15px 0 50px 0;
 }
+.ul-column-info{
+    margin-left: 25px;
+}
+.li-column-info{
+    
+}
 .margin{
     margin: 15px 0 0 30px;
 }
-.m-bottom{
-    margin-bottom: 20px;
-}
 .btn.column{
-    margin: 40px 0;
+    margin: 10px 0 40px 0;
     padding: 10px 82px;
 }
 .clnm-or{
@@ -194,4 +208,87 @@ header ul{
 }
 .clnm ul {
     list-style: none;
+    margin: 25px;
 }
+/* styling bottom box */
+.b-box{
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid grey;
+}
+.b-box-1{
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    height: 40px;
+    border-bottom: 1px solid grey;
+    /* debugging */
+    background-color: violet;
+}
+.b-box-2{
+    background-color: pink;
+}
+.b-box-2-text{
+    padding: 30px 0 0 25px;
+}
+.enterprise{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact{
+    display: block;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.soluction{
+    padding: 25px 0 20px 0;
+    display: block;
+}
+.btn-b-box-2{
+    float: right;
+    padding: 10px 80px;
+    margin-right: 40px;
+}
+/* styling section 3 */
+.section-3{
+    margin-top: 130px;
+}
+.s3-clnm-left{
+    display: inline-block;
+    width: 50%;
+    /* debugging */
+    background-color: red;
+}
+.partner-image{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.s3-clnm-right{
+    width: 50%;
+    float: right;
+    padding: 30px 0 0 50px;
+    /* debugging */
+    background-color: yellow;
+}
+.clnm-right-title{
+    font-size: 37px;
+    font-weight: bold;
+    /* debugging */
+    background-color: purple;
+}
+.clnm-right-text{
+    padding-top: 30px;
+    font-size: 27px;
+    /* debugging */
+    background-color: rebeccapurple;
+}
+.btn-partner{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+/* styling section 4 */
+
