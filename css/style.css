@@ -139,7 +139,6 @@ header a{
 .clnm{
     width: calc(89% / 3);
     float: left;
-    display: inline-block;
     border: 1px solid grey;
     min-height: 1200px;
     /* debugging */
@@ -163,11 +162,9 @@ header a{
 }
 
 .clnm-price{
-
     font-weight: bold;
 }
 .clnm-dir{
-    clnm-user
     color: grey;
     margin: 15px 0 50px 0;
 }
@@ -291,4 +288,44 @@ header a{
     margin-top: 30px;
 }
 /* styling section 4 */
-
+.section-4{
+    margin-top: 130px;
+}
+.section-4-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.section-4-clmn{
+    width: calc(89% / 3);
+    float: left;
+    /* debugging */
+    background-color: orange;
+}
+.section-4-row-1{
+    margin-top: 30px;
+}
+.section-4-row-1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.section-4-row-2 img{
+    width: 100%;
+    object-fit: cover;
+}
+.section-4-clmn-center{
+    margin: 0 73px;
+}
+.section-4-undertitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+.section-4-text{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.section-4-text .underline-text{
+    text-decoration: underline;
+}
+.section-4-row-2{
+    margin: 100px 0;
+}
