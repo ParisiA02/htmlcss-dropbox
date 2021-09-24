@@ -444,7 +444,7 @@ header a{
 .bar{
     width: 60px;
     height: 2px;
-    background: grey;
+    background: rgb(245, 245, 245);
     position: absolute;
     top: 95px;
     left: 0;
@@ -457,4 +457,25 @@ header a{
 .main-brand-sign{
     margin-top: 40px;
     font-size: 20px;
+}
+/* styling section 6 */
+.section-6{
+    background-color: rgb(180, 208, 231);
+}
+.section-6-text{
+    width: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(97, 8, 43);
+}
+.section-6-text-container{
+    padding: 100px 0;
+}
+.btn-section-6{
+    float: right;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 70px;
 }
