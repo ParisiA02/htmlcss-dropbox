@@ -16,7 +16,7 @@ header{
     left: 0;
     z-index: 100;
     /* debugging */
-    background-color: red;
+    background-color: white;
 }
 /* header logo */
 .header-logo{
@@ -60,14 +60,10 @@ header a{
 .container{
     width: 80%;
     margin: 0 auto;
-    /* debugging */
-    background-color: yellow;
 }
 .container-2{
     width: 70%;
     margin: 0 auto;
-    /* debugging */
-    background-color: green;
 }
 
 .jumbotron-title{
@@ -132,8 +128,6 @@ header a{
 /* column container */
 .clmn-container{
     width: 100%;
-    /* debugging */
-    background-color: red;  
 }
 /* styling columns */
 .clnm{
@@ -141,8 +135,6 @@ header a{
     float: left;
     border: 1px solid grey;
     min-height: 1200px;
-    /* debugging */
-    background-color: blue;
 }
 .clnm.center{
     margin: 0 73px;
@@ -219,11 +211,6 @@ header a{
     text-align: center;
     height: 40px;
     border-bottom: 1px solid grey;
-    /* debugging */
-    background-color: violet;
-}
-.b-box-2{
-    background-color: pink;
 }
 .b-box-2-text{
     padding: 30px 0 0 25px;
@@ -254,8 +241,6 @@ header a{
 .s3-clnm-left{
     display: inline-block;
     width: 50%;
-    /* debugging */
-    background-color: red;
 }
 .partner-image{
     width: 100%;
@@ -266,20 +251,14 @@ header a{
     width: 50%;
     float: right;
     padding: 30px 0 0 50px;
-    /* debugging */
-    background-color: yellow;
 }
 .clnm-right-title{
     font-size: 37px;
     font-weight: bold;
-    /* debugging */
-    background-color: purple;
 }
 .clnm-right-text{
     padding-top: 30px;
     font-size: 27px;
-    /* debugging */
-    background-color: rebeccapurple;
 }
 .btn-partner{
     background-color: white;
@@ -298,8 +277,6 @@ header a{
 .section-4-clmn{
     width: calc(89% / 3);
     float: left;
-    /* debugging */
-    background-color: orange;
 }
 .section-4-row-1{
     margin-top: 30px;
@@ -435,7 +412,6 @@ header a{
 .main-brand-container{
     width: 90%;
     margin: 40px auto;
-    background-color: red;
     position: relative;
 }
 .designit-logo{
@@ -478,4 +454,60 @@ header a{
     background-color: white;
     color: black;
     padding: 10px 70px;
+}
+/* styling section 7 */
+.section-7-title{
+    padding: 100px 0 50px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+.section-7-box{
+    font-weight: bold;
+    padding: 30px 0;
+    border-top: 1px solid rgb(220, 220, 222);
+}
+.section-7-box:last-child{
+    border-bottom: 1px solid rgb(220, 220, 222);
+}
+.fa-chevron-down{
+    float: right;
+    margin-right: 40px;
+}
+.section-7-main{
+    margin-bottom: 120px;
+}
+/* styling footer */
+footer{
+    height: 500px;
+    background-color: black;
+}
+.footer-column-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.li-footer{
+    list-style-type: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-column{
+    padding-top: 100px;
+    float: left;
+    margin-right: 140px;
+}
+.footer-2{
+    margin-top: 100px;
+    color: grey;
+    position: relative;
+    padding-top: 60px;
+}
+footer .bar{
+    width: 140px;
+    height: 2px;
+    background: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
