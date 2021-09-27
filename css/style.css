@@ -15,8 +15,28 @@ header{
     top: 0;
     left: 0;
     z-index: 100;
-    /* debugging */
     background-color: white;
+}
+a:link{
+    text-decoration: none;
+}
+.li-header a:hover{
+    border-bottom: 2px solid black;
+}
+.li-header a:visited{
+    color: black;
+}
+.header-btn a:visited{
+    color: white;
+}
+.jumbotron-btn a:visited{
+    color: white;
+}
+.btn-b-box-2 a:visited{
+    color: white;
+}
+.fa-arrow-down::before{
+    color: black;
 }
 /* header logo */
 .header-logo{
@@ -309,7 +329,6 @@ header a{
 /* styling section 5 */
 .brand{
     height: 500px;
-    background-color: green;
 }
 .section-5-title{
     font-size: 50px;
